@@ -1,19 +1,20 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
 
 // Nosso componentes
 import Simples from './src/componentes/Simples';
 import ParImpar from './src/componentes/ParImpar';
-import {Megasena, Multi } from './src/componentes/Multi'
+import { Multi } from './src/componentes/Multi'
+import { Megasena } from './src/componentes/Megasena'
 
 //JSX
 export default function App() {
   return (
     <View>
       <Simples texto ='Olá, tudo bem?'/>
-      <ParImpar numero= '3'/>
-      <Multi texto='Thais'/>
-      <Megasena tamanho={1}/>
+      <ParImpar numero= '2'/>
+      <Multi texto='Thaís'/>
+      <Megasena tamanho={5}/>
     </View>
   );
 }
