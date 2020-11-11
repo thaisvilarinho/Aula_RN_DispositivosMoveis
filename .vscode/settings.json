@@ -1,0 +1,14 @@
+{
+    "[json]": {
+
+    
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.fontFamily": "Fira Code",
+        "editor.fontLigatures": true
+    },
+    "editor.fontFamily": "\"Fira Code\", Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true
+}
