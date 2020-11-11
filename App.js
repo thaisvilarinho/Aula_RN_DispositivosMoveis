@@ -10,7 +10,7 @@ export default function App() {
   return (
     <View>
       <Simples texto ='Olá, tudo bem?'/>
-      <ParImpar numero= '5'/>
+      <ParImpar numero= '3'/>
     </View>
   );
 }
