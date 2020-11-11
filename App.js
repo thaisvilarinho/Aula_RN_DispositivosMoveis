@@ -5,17 +5,37 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.cabecalho}>Cabeçalho</Text>
+      <Text style={styles.texto}>Conteúdo</Text>
+      <Text style={styles.rodape}>Rodapé</Text>
     </View>
+
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: '#7159c1',
     flex: 1,
-    backgroundColor: '#fff',
+    justifyContent: 'space-between',
     alignItems: 'center',
-    justifyContent: 'center',
   },
-});
+
+  texto: {
+    color: '#fff',
+    fontSize: 40,
+  },
+
+  cabecalho:{
+    fontSize:16,
+    color:'red',
+  },
+  
+  rodape:{
+    fontSize: 30,
+    color: 'gray',
+  },
+
+})
+
+
