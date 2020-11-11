@@ -4,6 +4,7 @@ Este repositório contém arquivos gerados na aula do dia 10/11/202, na discipli
 
 
 ![alt text](https://github.com/thaisvilarinho/appReact/blob/master/componentes.PNG?raw=true)
+
 FIGURA 1 - Componentes renderizados - Fonte: Própria autoria
 
 
